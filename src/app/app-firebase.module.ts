@@ -1,11 +1,11 @@
-import { NgModule } from '@angular/core';
+import { AngularFireAuthModule } from "@angular/fire/auth";
+import { AngularFireModule } from "@angular/fire";
+import { NgModule } from "@angular/core";
+
+import { environment } from "../environments/environment";
 
 @NgModule({
-  imports: [
-    
-  ],
-  exports: [
-
-  ]
+  imports: [AngularFireModule.initializeApp(environment.firebase)],
+  exports: [AngularFireAuthModule]
 })
-export class AppFirebaseModule { }
+export class AppFirebaseModule {}
