@@ -5,14 +5,14 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "<your apiKey>",
-    authDomain: "<your authDomain>",
-    databaseURL: "<your databaseURL>",
-    projectId: "<your projectId>",
-    storageBucket: "<your storageBucket>",
-    messagingSenderId: "<your messagingSenderId>",
-    appId: "<your appId>",
-    measurementId: "<your measurementId>"
+    apiKey: "AIzaSyD8R5SlmzbYB387to0U1pto0UKwTMqjdNc",
+    authDomain: "kitty-gram.firebaseapp.com",
+    databaseURL: "https://kitty-gram.firebaseio.com",
+    projectId: "kitty-gram",
+    storageBucket: "kitty-gram.appspot.com",
+    messagingSenderId: "321935091070",
+    appId: "1:321935091070:web:50689649c41b6428b2ff2f",
+    measurementId: "G-T92E1S544X"
   }
 };
 
