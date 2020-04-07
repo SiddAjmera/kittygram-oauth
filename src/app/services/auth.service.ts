@@ -2,7 +2,7 @@ import { AngularFireAuth } from "@angular/fire/auth";
 import { Injectable } from "@angular/core";
 import { BehaviorSubject, Observable } from "rxjs";
 import { map, switchMap } from "rxjs/operators";
-import { auth } from "firebase";
+import { auth } from "firebase/app";
 
 @Injectable({
   providedIn: "root"
