@@ -6,6 +6,6 @@ import { environment } from "../environments/environment";
 
 @NgModule({
   imports: [AngularFireModule.initializeApp(environment.firebase)],
-  exports: [AngularFireAuthModule]
+  exports: [AngularFireAuthModule, AngularFireModule]
 })
 export class AppFirebaseModule {}
